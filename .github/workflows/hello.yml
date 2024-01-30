@@ -1,0 +1,19 @@
+#
+# My_testing_GitHub_Action
+#
+
+name: HelloAction
+
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+  first_job:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Print Hello Messagу
+      run: hello.py
