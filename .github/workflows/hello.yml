@@ -2,7 +2,7 @@
 # My_testing_GitHub_Action
 #
 
-name: HelloAction
+name: Program_and_test
 
 on:
   push:
