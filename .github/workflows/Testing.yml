@@ -10,7 +10,7 @@ on:
       - master
 
 jobs:
-  first_job:
+  run_script:
 
     runs-on: ubuntu-latest
 
@@ -23,7 +23,7 @@ jobs:
     - name: Run operation script
       run: basic_operation.py
 
-  second_job:
+  testing_script:
     runs-on: ubuntu-latest
      steps:
     - uses: actions/checkout@v2
