@@ -6,8 +6,8 @@ name: Building_and_Testing
 
 on:
   push:
-    branches: 
-      - master
+    
+      
 
 jobs:
   run_script:
